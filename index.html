@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Información · CardiotenSive España</title>
+
+  <style>
+    :root {
+      --bg-page: #f3f4f6;
+      --card-bg: #ffffff;
+      --text-main: #0f172a;
+      --text-muted: #4b5563;
+      --border-subtle: #e5e7eb;
+      --accent: #2563eb;
+      --accent-dark: #1d4ed8;
+      --radius-lg: 16px;
+      --radius-pill: 999px;
+      --shadow-soft: 0 16px 40px rgba(15,23,42,0.12);
+    }
+
+    body {
+      margin: 0;
+      padding: 24px 16px 120px;
+      font-family: system-ui, -apple-system, Segoe UI, sans-serif;
+      background: var(--bg-page);
+      color: var(--text-main);
+    }
+
+    .page {
+      max-width: 780px;
+      margin: 0 auto;
+    }
+
+    header {
+      margin-bottom: 18px;
+    }
+
+    .tag {
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: .08em;
+      color: var(--text-muted);
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .tag .flag {
+      font-size: 16px;
+    }
+
+    .card {
+      background: var(--card-bg);
+      padding: 20px 18px 18px;
+      border-radius: var(--radius-lg);
+      border: 1px solid var(--border-subtle);
+      box-shadow: var(--shadow-soft);
+    }
+
+    h1 {
+      font-size: 22px;
+      margin-bottom: 10px;
+      line-height: 1.35;
+    }
+
+    h1 span {
+      color: var(--accent);
+    }
+
+    p {
+      font-size: 14px;
+      color: var(--text-muted);
+      line-height: 1.6;
+      margin-bottom: 14px;
+    }
+
+    .info-box {
+      background: #eff6ff;
+      border: 1px solid #dbeafe;
+      color: #1e3a8a;
+      padding: 10px 12px;
+      border-radius: 10px;
+      font-size: 13px;
+      margin: 12px 0 16px;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 11px 20px;
+      background: linear-gradient(135deg, var(--accent), var(--accent-dark));
+      color: white;
+      border-radius: var(--radius-pill);
+      font-size: 14px;
+      font-weight: 600;
+      text-decoration: none;
+      box-shadow: 0 18px 45px rgba(37,99,235,0.35);
+      transition: .16s;
+    }
+
+    .btn:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 22px 55px rgba(37,99,235,0.5);
+    }
+
+    footer {
+      margin-top: 16px;
+      font-size: 11px;
+      color: var(--text-muted);
+      text-align: center;
+      line-height: 1.4;
+    }
+
+    /* Floating CTA */
+    .floating {
+      position: fixed;
+      bottom: 22px;
+      right: 16px;
+      padding: 10px 18px;
+      border-radius: var(--radius-pill);
+      background: #ffffff;
+      border: 1px solid var(--border-subtle);
+      color: var(--accent-dark);
+      font-size: 13px;
+      font-weight: 600;
+      text-decoration: none;
+      box-shadow: 0 16px 35px rgba(0,0,0,0.15);
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      z-index: 50;
+    }
+
+    @media (max-width: 640px) {
+      .floating {
+        right: 50%;
+        transform: translateX(50%);
+        bottom: 26px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="page">
+    <header>
+      <div class="tag">
+        <span class="flag">🇪🇸</span> Artículo informativo · España
+      </div>
+    </header>
+
+    <main class="card">
+      <h1>
+        Información esencial sobre <span>CardiotenSive</span>
+      </h1>
+
+      <p>
+        Este artículo resume datos básicos sobre un complemento alimenticio destinado a
+        acompañar hábitos saludables en adultos. No sustituye tratamientos ni recomendaciones
+        médicas profesionales.
+      </p>
+
+      <p>
+        Antes de cualquier decisión, es recomendable consultar siempre la información oficial
+        del proveedor autorizado en España.
+      </p>
+
+      <div class="info-box">
+        Los detalles completos sobre ingredientes, precio, entrega y disponibilidad se muestran
+        únicamente en la página oficial del partner.
+      </div>
+
+      <a class="btn"
+         href="https://5adb6f.asdnecfoqwq.cc/?target=-7EBNQCgQAAAfApAQD4JIABQEBEREKEQkKEQ1CEQ0SAAF_YWRjb21ibwEx&al=98513&ap=-1">
+        Ver oferta oficial →
+      </a>
+
+      <footer>
+        Sitio independiente de carácter informativo.  
+        Consulte siempre las condiciones y la información en la página oficial.
+      </footer>
+    </main>
+  </div>
+
+  <!-- Floating CTA -->
+  <a class="floating"
+     href="https://5adb6f.asdnecfoqwq.cc/?target=-7EBNQCgQAAAfApAQD4JIABQEBEREKEQkKEQ1CEQ0SAAF_YWRjb21ibwEx&al=98513&ap=-1">
+    Ver oferta →
+  </a>
+
+</body>
+</html>
